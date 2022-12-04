@@ -2,7 +2,7 @@
 
 namespace _4_1_2
 {
-    internal class Program
+    internal class _4_1_2
     {
         static private int _matrixStringNumber;
         static private int _matrixColumnNumber;
@@ -53,12 +53,12 @@ namespace _4_1_2
                 }
                 else
                 {
-                    Console.WriteLine("Вы ввели некорректные данные!");
+                    Console.WriteLine("Вы ввели некорректные данные! Повторите ввод");
                 }
             }
         }
         /// <summary>
-        /// Универсальный генаратор матрицы
+        /// Универсальный генератор матрицы
         /// </summary>
         /// <param name="matrix"></param>
         static void MatrixGenerate(ref int[,] matrix)
